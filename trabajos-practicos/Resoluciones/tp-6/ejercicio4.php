@@ -45,7 +45,7 @@
 
     echo "Fin del programa \n";
     if ($rta == "n" || $rta == "N") {
-        echo "Sueldo acumulado: $" . $acumSueldos . " \n";
+        echo "Sueldos acumulado: $" . $acumSueldos . " \n";
         echo "Cantidad de sueldos ingresados " . $acumRtas . " \n";
         $promedio = calcularPromedio($acumSueldos, $acumRtas);
         echo "Promedio de sueldos: $" . $promedio;
@@ -53,3 +53,4 @@
     else {
         echo "El comando ingresado es incorrecto. Intentelo nuevamente \n";
     }
+?>
