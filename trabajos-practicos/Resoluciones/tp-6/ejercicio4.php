@@ -19,8 +19,8 @@
     /**
      * Principal
      * Lee una secuencia de numeros que representan el sueldo del personal de una empresa y calcula el promedio de los sueldos de los empleados.
-     * INT $acumRtas
-     * FLOAT $sueldo, $acumSueldos, $promedio
+     * INT $acumRtas, $acumSueldos
+     * FLOAT $sueldo, $promedio
      * STRING $rta
     */
 
