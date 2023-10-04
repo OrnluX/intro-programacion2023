@@ -31,17 +31,17 @@
     echo "Desea ingresar un sueldo? (s/n): ";
     $rta = trim(fgets(STDIN));
 
-    do {
-        if ($rta == "s" || $rta == "S") {
+   
+    if ($rta == "s" || $rta == "S") {
+        do {
             echo "Sueldo: ";
             $sueldo = trim(fgets(STDIN));
             $acumRtas++;
             $acumSueldos += $sueldo;
             echo "Desea ingresar otro sueldo? (s/n): ";
             $rta = trim(fgets(STDIN));
-        }
-
-    } while ($rta == "s" || $rta == "S");
+        } while ($rta == "s" || $rta == "S");
+    }
 
     echo "Fin del programa \n";
     if ($rta == "n" || $rta == "N") {
