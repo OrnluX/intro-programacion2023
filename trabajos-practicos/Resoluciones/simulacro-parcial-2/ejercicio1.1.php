@@ -2,10 +2,10 @@
     /** Modulo que calcula el promedio de un valor respecto de otro
      * @param INT $cantEmpl
      * @param INT $edadAcumulada
-     * @return FLOAT
+     * @return INT
     */
     function calcularPromedio ($cantEmpl, $edadAcumulada) {
-        //FLOAT $resultado
+        //INT $resultado
         if ($cantEmpl !=0 && $edadAcumulada !=0) {
             $resultado = (int)($edadAcumulada / $cantEmpl);
         }
